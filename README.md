@@ -10,7 +10,7 @@ with a words file containing 123,398 words.
 #### AMD Opteron 6172 12-core
 
 ![](opteron-graph.png)
-<img src="./opteron-graph.png" width="100" height="100" />
+<img src="./opteron-graph.png" width="800" height="800" />
 
 | #threads | runtime (ms) | percentage |
 |----------|--------------|------------|
