@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "" >> README.md
+
+for i in `seq 1 24`; do
+    TIMESTAMP=$(./reversed_words $i)
+    PRINT="$TIMESTAMP"
+    echo $PRINT
+    echo $PRINT >> README.md
+done
