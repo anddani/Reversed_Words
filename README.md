@@ -1,30 +1,36 @@
 Reversed Words
 ==============
 
+| #threads | runtime (ms) | percentage |
+|----------|--------------|------------|
+|        1 |   1067772.54 |     100.00 |
+|        2 |    534877.78 |      50.09 |
+|        3 |    356563.76 |      33.39 |
+|        4 |    267132.82 |      25.02 |
+|        5 |    213741.00 |      20.02 |
+|        6 |    178142.22 |      16.68 |
+|        7 |    152713.21 |      14.30 |
+|        8 |    133665.50 |      12.52 |
+|        9 |    118826.96 |      11.13 |
+|       10 |    106998.49 |      10.02 |
+|       11 |     97292.78 |       9.11 |
+|       12 |     89218.46 |       8.36 |
+|       13 |     82385.38 |       7.72 |
+|       14 |     76515.68 |       7.17 |
+|       15 |     71446.52 |       6.69 |
+|       16 |     67026.26 |       6.28 |
+|       17 |     63078.10 |       5.91 |
+|       18 |     59622.92 |       5.58 |
+|       19 |     56500.00 |       5.29 |
+|       20 |     53720.23 |       5.03 |
+|       21 |     51185.62 |       4.79 |
+|       22 |     48889.30 |       4.58 |
+|       23 |     46806.99 |       4.38 |
+|       24 |     44945.82 |       4.21 |
 
-<!--
-number of workers: 1 1067772.545898 ms
-number of workers: 2 534877.788086 ms
-number of workers: 3 356563.760986 ms
-number of workers: 4 267132.825928 ms
-number of workers: 5 213741.006104 ms
-number of workers: 6 178142.227051 ms
-number of workers: 7 152713.216797 ms
-number of workers: 8 133665.508789 ms
-number of workers: 9 118826.967041 ms
-number of workers: 10 106998.494141 ms
-number of workers: 11 97292.780029 ms
-number of workers: 12 89218.464111 ms
-number of workers: 13 82385.383789 ms
-number of workers: 14 76515.684082 ms
-number of workers: 15 71446.522949 ms
-number of workers: 16 67026.263916 ms
-number of workers: 17 63078.102051 ms
-number of workers: 18 59622.928955 ms
-number of workers: 19 56500.000000 ms
-number of workers: 20 53720.239014 ms
-number of workers: 21 51185.623047 ms
-number of workers: 22 48889.306152 ms
-number of workers: 23 46806.992920 ms
-number of workers: 24 44945.825195 ms
--->
+| #threads | runtime (ms) | percentage |
+|----------|--------------|------------|
+|        1 |    341107.02 |     100.00 |
+|        2 |    167841.67 |      49.20 |
+|        3 |    112575.05 |      33.00 |
+|        4 |     87578.18 |      25.67 |

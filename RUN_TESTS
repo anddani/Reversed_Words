@@ -1,10 +1,16 @@
 #!/bin/bash
 
-echo "" >> README.md
+rm -f data
 
-for i in `seq 1 24`; do
+for i in `seq 1 4`; do
     TIMESTAMP=$(./reversed_words $i)
-    PRINT="$TIMESTAMP"
-    echo $PRINT
-    echo $PRINT >> README.md
+    echo $TIMESTAMP >> data
 done
+
+echo "" >> README.md
+awk '{
+        threads[NR] = $4; time[NR] = $5
+    } END {
+        for (x = 1; x <= NR; x++)
+            printf "| %s | %2.2f | %2.2f |\n", threads[x], time[x], (100 * time[x])/time[1]
+    }' data >> README.md
