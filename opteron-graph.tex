@@ -1,0 +1,43 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={\# threads},
+    ylabel={Runtime (ms)},
+    width=0.70\linewidth,
+    legend pos=north east,
+    scaled y ticks = false,
+]
+\addplot coordinates {
+        (1,1067772.54)
+        (2,534877.78)
+        (3,356563.76)
+        (4,267132.82)
+        (5,213741.00)
+        (6,178142.22)
+        (7,152713.21)
+        (8,133665.50)
+        (9,118826.96)
+        (10,106998.49)
+        (11,97292.78)
+        (12,89218.46)
+        (13,82385.38)
+        (14,76515.68)
+        (15,71446.52)
+        (16,67026.26)
+        (17,63078.10)
+        (18,59622.92)
+        (19,56500.00)
+        (20,53720.23)
+        (21,51185.62)
+        (22,48889.30)
+        (23,46806.99)
+        (24,44945.82)
+};
+\legend{AMD Opteron 6172}
+    \end{axis}
+\end{tikzpicture}
+\end{document}

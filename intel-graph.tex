@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={\# threads},
+    ylabel={Runtime (ms)},
+    width=0.70\linewidth,
+    legend pos=north east,
+    scaled y ticks = false,
+]
+\addplot coordinates {
+        (1,341107.02)
+        (2,167841.67)
+        (3,112575.05)
+        (4,87578.18)
+};
+\legend{Intel i5-6600K}
+    \end{axis}
+\end{tikzpicture}
+\end{document}

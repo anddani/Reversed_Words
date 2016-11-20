@@ -44,7 +44,7 @@ void* find_reversed_words(void*);
 
 int main(int argc, const char *argv[])
 {
-    char *filename_in = "words3";
+    char *filename_in = "words";
     char *filename_out = "out";
     int file_len;
     struct stat buf;
