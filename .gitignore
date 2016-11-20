@@ -1,6 +1,7 @@
 out
 *.aux
 *.log
+*.pdf
 words*
 reversed_words
 data
