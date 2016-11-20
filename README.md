@@ -9,8 +9,7 @@ with a words file containing 123,398 words.
 
 #### AMD Opteron 6172 12-core
 
-![](opteron-graph.png)
-<img src="./opteron-graph.png" width="800" />
+<img src="./opteron-graph.png" width="700" />
 
 | #threads | runtime (ms) | percentage |
 |----------|--------------|------------|
@@ -40,6 +39,8 @@ with a words file containing 123,398 words.
 |       24 |    44,945.82 |       4.21 |
 
 #### Intel i5 6600K 3-core
+
+<img src="./intel-graph.png" width="700" />
 
 | #threads | runtime (ms) | percentage |
 |----------|--------------|------------|
