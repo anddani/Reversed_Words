@@ -1,6 +1,9 @@
 Reversed Words
 ==============
 
+A program that finds each word that is a palindrome
+or is another word reversed.
+
 # Test results
 
 These are the results for running the program
