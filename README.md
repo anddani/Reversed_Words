@@ -2,6 +2,7 @@ Reversed Words
 ==============
 
 
+<!--
 number of workers: 1 1067772.545898 ms
 number of workers: 2 534877.788086 ms
 number of workers: 3 356563.760986 ms
@@ -26,3 +27,4 @@ number of workers: 21 51185.623047 ms
 number of workers: 22 48889.306152 ms
 number of workers: 23 46806.992920 ms
 number of workers: 24 44945.825195 ms
+-->
