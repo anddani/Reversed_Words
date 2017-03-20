@@ -112,7 +112,7 @@ int main(int argc, const char *argv[])
 
 /*
  * Function: find_reversed_words
- * -------------------
+ * -----------------------------
  *
  *   Reads the next word that should be reversed using the
  *   bag of tasks-technique (with an offset). The reversed
@@ -220,7 +220,7 @@ void *next_word(char *s, int len)
 
 /*
  * Function: reverse_word
- * -------------------
+ * ----------------------
  *
  *   Reverses the word 'from' and puts it in 'to'
  *
@@ -242,7 +242,7 @@ void reverse_word(char *from, char *to, int len)
 
 /*
  * Function: word_exists
- * -------------------
+ * ---------------------
  *
  *   Searches through the words-file for the word
  *
@@ -277,7 +277,7 @@ int word_exists(char *word, int len)
 
 /*
  * Function: print_to_file
- * -------------------
+ * -----------------------
  *
  * Prints the word in the output-file while avoiding race
  * conditions.
